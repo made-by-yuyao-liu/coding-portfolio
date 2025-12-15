@@ -26,7 +26,7 @@ This portfolio is organized into folders by project type:
 ## 🗂️ Project List
 
 ### **Java Projects**
-- [Project Placeholder 1](./java-projects/project-1) — *(Brief description of what it does)*  
+- 🎮 [Six In A Row Game](./java-projects/six-in-a-row-game) — A two-player Java board game built with OOP principles, where players use Rock–Paper–Scissors to start and compete to connect six pegs first.
 - [Project Placeholder 1](./java-projects/project-1) — *(Brief description of what it does)*  
 
 ### **Python Projects**
