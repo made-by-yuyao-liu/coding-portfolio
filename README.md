@@ -34,7 +34,8 @@ This portfolio is organized into folders by project type:
 - [Project Placeholder 1](./java-projects/project-1) — *(Brief description of what it does)*  
 
 ### **HTML/CSS/JavaScript Projects**
-- [Project Placeholder 1](./java-projects/project-1) — *(Brief description of what it does)*  
+- 🧠 [Simple Buzz Quiz](./web-projects/simple-buzz-quiz) — A basic interactive quiz built using HTML, CSS, and JavaScript that lets users answer simple math questions and receive automatic scoring with a letter-grade result.
+
 - [Project Placeholder 1](./java-projects/project-1) — *(Brief description of what it does)*  
 
 ---
