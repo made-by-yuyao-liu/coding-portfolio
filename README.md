@@ -5,7 +5,7 @@ Welcome! This repository is a curated collection of the coding projects I’ve c
 ---
 
 ## 👩‍💻 About Me
-Hi! I’m Yuyao — a Business Analytics and Finance student (with a CS minor) at McGill University who enjoys coding, building small projects, and constantly improving problem-solving skills. I use this repository to track my learning in programming and to showcase my technical work. 
+Hi! I’m Yuyao (Cindy) Liu. I am an undergrad student at McGill University double majoring in Business Analytics and Finance student, and minoring in Computer Science. I enjoy coding, building small projects, and constantly improving my problem-solving skills. I use this repository to track my learning in programming and to showcase my technical work. 
 
 ---
 
