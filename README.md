@@ -27,16 +27,11 @@ This portfolio is organized into folders by project type:
 
 ### **Java Projects**
 - 🎮 [Six In A Row Game](./java-projects/six-in-a-row-game) — A two-player Java board game built with OOP principles, where players use Rock–Paper–Scissors to start and compete to connect six pegs first.
-- [Project Placeholder 1](./java-projects/project-1) — *(Brief description of what it does)*  
 
 ### **Python Projects**
-- [Project Placeholder 1](./java-projects/project-1) — *(Brief description of what it does)*  
-- [Project Placeholder 1](./java-projects/project-1) — *(Brief description of what it does)*  
 
 ### **HTML/CSS/JavaScript Projects**
 - 🧠 [Simple Buzz Quiz](./web-projects/simple-buzz-quiz) — A basic interactive quiz built using HTML, CSS, and JavaScript that lets users answer simple math questions and receive automatic scoring with a letter-grade result.
-
-- [Project Placeholder 1](./java-projects/project-1) — *(Brief description of what it does)*  
 
 ---
 
