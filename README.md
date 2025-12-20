@@ -18,7 +18,7 @@ This portfolio is organized into folders by project type:
 - **python-projects/**  
   Small scripts, algorithm implementations, data manipulation exercises, and other Python work.
 
-- **web-projects (HTML/CSS/JavaScript)/**  
+- **web-projects(HTML,CSS,JavaScript)/**  
   Beginner web development projects, UI exercises, and interactive webpage experiments.
 
 ---
