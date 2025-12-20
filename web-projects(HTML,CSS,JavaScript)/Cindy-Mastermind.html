@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cindy-Mastermind</title>
+    <link rel="stylesheet" href="Cindy-Mastermind.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="heading">Play Mastermind Online!</div>
+        <div class="dropdown">
+            <button class="dropbtn">Game Rules</button>
+            <div class="dropdown-content">
+                <a>
+                <p3>Object of the Game</p3><br>
+                    <p>To outsmart the computer with great guesswork.</p>
+                <p3>Your Goal</p3><br>
+                    <p>
+                    As the Decoder: you must break the secret code in the fewest number of guesses.<br>
+                    </p>
+                <p3>Game Play</p3><br>
+                    <ol>
+                        <li>1. Click on <span>&nbsp Start New Game &nbsp</span>.</li>
+                        <li>2. Begin guessing, try to duplicate the exact colors and positions of the hidden Code pegs.<br> Note: there are no duplicate colors.</li>
+                        <li>3. Each guess is made by clicking a peg in the selection area, then clicking an empty spot in the guess row.</li>
+                        <li>4. After every guess, the computer will inform you of your progress through the little dots on the right.</li>
+                    </ol>
+                <p3>Red Dots</p3>
+                    <div class="redDot"></div>
+                    <p>The red dots shows the number of pegs that are the correct colors in the correct positions.</p>
+                <p3>White Dots</p3>
+                    <div class="whiteDot"></div>
+                    <p>White dots show the number of pegs that are the correct colors but in incorrect positions.</p>  
+                <p3>Example</p3><br>
+                    <img src="Example.png" class="exampleGamePlay" style="float: left; margin-right: 10px"><br>
+                    <p>In this case the player has 1 peg that is the correct colors in the correct position and 2 pegs that are the same color but in incorrect positions. Therefore there are 1 red dots and 2 white dots.</p><br><br><br><br>         
+                <p3>End of the Game</p3><br>   
+                    <p>
+                    ⇨If the Decoder breaks the secret code before all the guess rows are used, 4 red dots are shown. The hidden code is revealed. The Decoder wins the game😃<br>
+                    ⇨If the Decoder has used up all the guess rows and have not broke the secret code, the hidden code is revealed. The Decoder loses the game😞
+                    </p>
+                </a>
+                </div>
+            </div>
+        <div class="box">
+            <div class="game-box">
+                <div class="game-top">
+                    <ul class="answer">
+                        <li>?</li>
+                        <li>?</li>
+                        <li>?</li>
+                        <li>?</li>
+                    </ul>
+                </div>
+                <div class="game-main">
+                <div class="first9Rows">
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                            <li onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                    <!--第9行-->
+                    <div class="term" id="Row9">
+                        <ul class="termLeft">
+                            <li id="Line9Btn1" onclick="onSetBallColor(this)"></li>
+                            <li id="Line9Btn2" onclick="onSetBallColor(this)"></li>
+                            <li id="Line9Btn3" onclick="onSetBallColor(this)"></li>
+                            <li id="Line9Btn4" onclick="onSetBallColor(this)"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!--第10行-->
+                    <div class="term">
+                        <ul class="termLeft">
+                            <li id="Line10Btn1" onclick="onSetBallColor(this)"></li>
+                            <li id="Line10Btn2" onclick="onSetBallColor(this)"></li>
+                            <li id="Line10Btn3" onclick="onSetBallColor(this)"></li>
+                            <li id="Line10Btn4" onclick="onSetBallColor(this)" onclick="enableRow9()"></li>
+                        </ul>
+                        <div class="termRight">
+                            <ul class="tips">   
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                                <li style="width:100%; height:4px; background-color:#AD7363; border-radius: 0;"></li>
+                                <li class="check-dot"></li>
+                                <li class="check-dot"></li>
+                            </ul>
+                            <div onclick="onCheckClick()" class="termBtn">
+                                Check
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="colorBall-box">
+                    <ul class="ball">
+                        <li class="red" onclick="onClickBall('red')"></li>
+                        <li class="green" onclick="onClickBall('green')"></li>
+                        <li class="blue" onclick="onClickBall('blue')"></li>
+                        <li class="yellow" onclick="onClickBall('yellow')"></li>
+                        <li class="skyblue" onclick="onClickBall('skyblue')"></li>
+                        <li class="orange" onclick="onClickBall('orange')"></li>
+                        <li class="black" onclick="onClickBall('black')"></li>
+                        <li class="white" onclick="onClickBall('white')"></li>
+                    </ul>
+                </div>
+                <div class="operation-box">
+                    <button class="btn" onclick="start()">Start New Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Cindy-Mastermind.js"></script>
+</body>
+
+</html>
