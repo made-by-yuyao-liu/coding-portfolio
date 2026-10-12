@@ -13,6 +13,8 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
 - **Java:** Object-oriented programming and desktop applications.
   - [Six in a Row Game](./java-projects/six-in-a-row-game) — A two-player Java board game with Rock–Paper–Scissors to determine the starting player.
 - **HTML/CSS/JavaScript:** Websites, browser games, and interactive interfaces.
+- **Excel:**
+  - [Used-Car Inventory & Pricing Analysis](./excel-projects/used-car-inventory-analysis/)
 
 ### Research Assistant Work
 
