@@ -4,7 +4,7 @@ Welcome! This portfolio brings together my coding projects, data visualizations,
 
 ## About Me
 
-Hi, I’m Cindy, an undergraduate at McGill University studying Business Analytics and Finance. I’m interested in using programming and data analysis to understand business problems, build useful tools, and communicate insights. 
+Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Business Analytics and Finance. I’m interested in using programming and data analysis to understand business problems, build useful tools, and communicate insights. 
 
 ## Portfolio Overview
 
@@ -14,16 +14,16 @@ Hi, I’m Cindy, an undergraduate at McGill University studying Business Analyti
   - [Six in a Row Game](./java-projects/six-in-a-row-game) — A two-player Java board game with Rock–Paper–Scissors to determine the starting player.
 - **HTML/CSS/JavaScript:** Websites, browser games, and interactive interfaces.
 
-### Research Experience
+### Research Assistant Work
 
 Selected contributions from my research assistant work, including data preparation, analysis, visualization, and research presentations.
 
-#### INSY 442 — Data Analytics and Visualizations
+#### INSY 442 Data Analytics and Visualizations - Course Material Development
 
 - **Power BI:** Creating visualizations using 2026 FIFA World Cup data.
 - **Tableau:** Building dashboards using Canadian retail sales data from Statistics Canada.
 
-#### Private Credit Lending Research
+#### Private Credit Lending Research Assistant 
 
 Research assistant supporting a study on how private-credit lenders adjust industry exposure during economic shocks.
 
