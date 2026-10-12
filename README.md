@@ -14,6 +14,7 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
   - [Six in a Row Game](./java-projects/six-in-a-row-game) — A two-player Java board game with Rock–Paper–Scissors to determine the starting player.
 - **HTML/CSS/JavaScript:** Websites, browser games, and interactive interfaces.
   - [Olympic Hockey Athlete Explorer](./html/olympic-hockey-athlete-website/) — A three-page website presenting athlete age, height, and geographic distributions.
+  
 - **Excel:**
   - [Used-Car Inventory & Pricing Analysis](./excel/used-car-inventory-analysis.xlsm)
 
