@@ -1,4 +1,4 @@
-# Cindy Liu | Coding & Analytics Portfolio
+# Yuyao (Cindy) Liu | Coding & Analytics Portfolio
 
 Welcome! This portfolio brings together my coding projects, data visualizations, research assistant contributions, and personal projects.
 
