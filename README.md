@@ -13,8 +13,13 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
 - **Java:** Object-oriented programming and desktop applications.
   - [Six in a Row Game](./java-projects/six-in-a-row-game) — A two-player Java board game with Rock–Paper–Scissors to determine the starting player.
 - **HTML/CSS/JavaScript:** Websites, browser games, and interactive interfaces.
-  - [Olympic Hockey Athlete Explorer](./html/olympic-hockey-athlete-website/) — A three-page website presenting athlete age, height, and geographic distributions.
-  
+  - **Mastermind Game** — A browser-based color code-breaking game.
+    - [Play Game](https://made-by-yuyao-liu.github.io/coding-portfolio/html-css-javascript/mastermind/mastermind-game-page.html)
+    - [View Source Code](./html-css-javascript/mastermind/)
+   - **Olympic Hockey Athlete Explorer** — A three-page website presenting athlete age, height, and geographic distributions.
+    - [View Website](https://made-by-yuyao-liu.github.io/coding-portfolio/html-css-javascript/olympic-hockey-athlete-website/index.html)
+    - [View Source Code](./html-css-javascript/olympic-hockey-athlete-website/)
+    
 - **Excel:**
   - [Used-Car Inventory & Pricing Analysis](./excel/used-car-inventory-analysis.xlsm)
 
