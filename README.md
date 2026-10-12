@@ -18,10 +18,16 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
 
 Selected contributions from my research assistant work, including data preparation, analysis, visualization, and research presentations.
 
-#### INSY 442 Data Analytics and Visualizations - Course Material Development
+#### Data Visualizations - Course Material Development
+- **Power BI:** Canadian retail sales visualizations.
+  - [PowerPoint presentation](./power-bi/retail-sales-visualization-comparison.pptx)
+  - [Dashboard file](./power-bi/canadian-retail-sales.pbix)
 
-- **Power BI:** Creating visualizations using 2026 FIFA World Cup data.
-- **Tableau:** Building dashboards using Canadian retail sales data from Statistics Canada.
+- **Tableau:** 2026 World Cup visualizations.
+  - [PowerPoint presentation](./tableau/world-cup-visualization-comparison.pptx)
+  - [Tableau workbook](./tableau/world-cup-2026.twbx)
+
+- [General Visualization Tips — PowerPoint](./visualization-tips.pptx)
 
 #### Private Credit Lending Research Assistant 
 
