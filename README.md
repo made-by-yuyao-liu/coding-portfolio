@@ -35,18 +35,6 @@ Research assistant supporting a study on how private-credit lenders adjust indus
 
 Independent projects exploring my interests in finance, analytics, technology, and practical applications of data.
 
-## Selected Coding Projects
-
-
-Additional projects and supporting materials will be added as they are prepared for sharing.
-
-## Tools & Technologies
-
-- **Programming:** Python, Java, HTML, CSS, JavaScript
-- **Data Analysis:** SQL, DuckDB, Jupyter Notebook, Excel
-- **Visualization:** Power BI, Tableau
-- **Development:** Git, GitHub, VS Code
-
 ## Contact
 
 - **LinkedIn:** [Cindy Liu](https://www.linkedin.com/in/-cindy-liu)
