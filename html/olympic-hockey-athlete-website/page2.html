@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2018 Olympic Hockey Teams Header</title>
+<style>
+
+body {
+  background: rgb(244, 229, 204);
+  background: linear-gradient(180deg, rgba(244, 229, 204) 35%, rgb(244, 229, 204) 100%)
+}
+
+.header-container {
+  background-color: #C1121F; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  background-color: #095786;
+}
+
+.navigation-container .button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out 100ms;
+}
+
+.navigation-container .button:hover {
+  background-color: #FFFFFF;
+}
+
+.button1{
+  height: 35px;
+  width: 153px;
+  background-color: #095786;
+  border: none;
+  color: white;
+  font-size: 14px;
+  color:#12364D;
+  font-weight: bold;  
+}
+
+.button2 {
+  height: 35px;
+  width: 153px;
+  background-color: #095786;
+  border: none;
+  color: white;
+  font-size: 14px;
+  color:#12364D;
+  font-weight: bold;
+}
+
+.button3 {
+  height: 35px;
+  width: 153px;
+  background-color: #C1121F;
+  border: none;
+  color: white;
+  font-size: 14px;
+  color:#12364D;
+  font-weight: bold;
+}
+  
+.active {
+    background-color: #1e90ff;
+  }
+
+.sidebar {
+  background-color: #095786;
+  padding: 20px;
+  width: 150px;
+  float: left;
+  height: 100vh;
+}
+
+.sidebar h3 {
+  color: rgb(244, 229, 204);
+  margin-bottom: 10px;
+}
+
+.info-text {
+  color: black;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.count-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+    
+.count-table th, 
+.count-table td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+  background-color: #b0c2ce; 
+}
+    
+.count-table th {
+  background-color: #4e8eb6;  
+}
+    
+.count-table tfoot td {
+  background-color: #4e8eb6;  
+  font-weight: bold;
+}
+ 
+table {
+  width: 40%;
+  border-collapse: collapse;
+  margin: 20px;
+  margin-left: 250px;
+}
+
+th {
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+  background-color: #4e8eb6;
+}
+
+td {
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+  background-color: #b0c2ce;
+}
+
+.header {
+  background-color: #4e8eb6;
+}
+
+.sub-header {
+  background-color: #4e8eb6;
+}
+
+.row-labels {
+  background-color: #b0c2ce;
+}
+
+.count-table tfoot2 td {
+  background-color: #4e8eb6;
+  font-weight: bold;
+}
+
+#Ad1 { color: rgb(244, 229, 204)
+  }
+
+h1 { 
+  text-align:center;
+  color: rgb(244, 229, 204) 
+}
+
+h2 {
+    color:black;
+    font-size: 30px;
+    margin-left: 200px; 
+}
+
+.Table2 { 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#distribution { 
+  padding-left: 200px
+}
+
+.bottom-paragraph {
+  padding-left: 200px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header-container">
+  <h1>2018 Olympic Hockey teams, from Canada and the USA <br> Athlete Data</h1>
+</div>
+
+<div class="navigation-container">
+  <a href="index.html"><button class="button button1" id="Ad1">Page 1</button></a>
+  <br><br>
+  <a href="page1.html"><button class="button button2" id="Ad1">Page 2</button></a>
+  <br><br>
+  <button class="button button3" id="Ad1">Page 3</button>
+  <br><br>
+</div>
+
+<div class="sidebar">
+  <h3>SIDEBAR</h3>
+  <p id="Ad1">Additional resources</p>
+  <ul>
+    <li><a href="https://olympics.com/en/olympic-games/pyeongchang-2018" id="Ad1">Winter Olympic Games PyeongChang 2018</li></a>
+    <br><br>
+    <li><a href="https://olympics.com/en/olympic-games/pyeongchang-2018/results/ice-hockey/women" id="Ad1">Women Hockey Results</a></li>
+    <br><br>
+    <li><a href="https://olympics.com/en/olympic-games/pyeongchang-2018/results/ice-hockey/men" id="Ad1">Men Hockey Results</a></li>
+</ul>
+</div>
+
+<div class="info-text">
+  <h2>Gender Distribution of Canadian Hockey Players Across Provinces</h2>
+</div>
+<table class="count-table">
+  <thead>
+    <tr>
+      <th>Row Labels</th>
+      <th>Men</th>
+      <th>Women</th>
+      <th>Grand Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alta.</td>
+      <td>7</td>
+      <td>2</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>B.C.</td>
+      <td>3</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Man.</td>
+      <td>2</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>N.S.</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Ont.</td>
+      <td>8</td>
+      <td>11</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>Que.</td>
+      <td>4</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Sask.</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Grand Total</td>
+      <td>25</td>
+      <td>23</td>
+      <td>48</td>
+    </tr>
+  </tfoot>
+</table>
+
+
+<div class="Distribution-text">
+  <p id="distribution">The distribution of Canadian hockey players reveals a detailed gender profile across the provinces, highlighting differences in regional engagement. Data shows Ontario leading with the highest number of players, signaling a strong hockey culture. Possible reasons for the higher proportion of hockey players from Ontario is its large population compared to other provinces, better funding for sports, as well as people's higher income levels, might make it more feasible for individuals in Ontario to pursue hockey. </p><br><br>
+</div>
+
+<h2>Gender Distribution of American Hockey Players Across States</h2>
+
+<table class="Table2">
+  <tr class="header">
+    <th>Count of ID</th>
+    <th colspan="3">Column Labels</th>
+  </tr>
+  <tr class="sub-header">
+    <td>Row Labels</td>
+    <td>Men</td>
+    <td>Women</td>
+    <td>Grand Total</td>
+  </tr>
+  <tr>
+    <td class="row-labels">USA</td>
+    <td>25</td>
+    <td>23</td>
+    <td>48</td>
+  </tr>
+
+  <tr>
+    <td class="row-labels">Calif.</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Colo.</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Conn.</td>
+    <td>1</td>
+    <td></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Fla.</td>
+    <td>1</td>
+    <td></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Idaho</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Ill.</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Mass.</td>
+    <td>5</td>
+    <td>3</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Md.</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Mich.</td>
+    <td>3</td>
+    <td>1</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Minn.</td>
+    <td>2</td>
+    <td>7</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td class="row-labels">N.C.</td>
+    <td>1</td>
+    <td></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="row-labels">N.D.</td>
+    <td></td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td class="row-labels">N.H.</td>
+    <td>1</td>
+    <td></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="row-labels">N.Y.</td>
+    <td>4</td>
+    <td>1</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Pa.</td>
+    <td>4</td>
+    <td></td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Va.</td>
+    <td>1</td>
+    <td></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Vt.</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="row-labels">Wis.</td>
+    <td></td>
+    <td>3</td>
+    <td>3</td>
+  </tr>
+  <tfoot2>
+    <tr>
+      <td>Grand Total</td>
+      <td>25</td>
+      <td>23</td>
+      <td>48</td>
+    </tr>
+  </tfoot2>
+</table>
+<div class = "bottom-paragraph">
+  <p>Examining hockey player demographics across U.S. states reveals a balanced male-to-female ratio. The data highlights Minnesota and Massachusetts as having a substantially higher representation of hockey players. Reasons for this could be the cold winters in both states, which facilitates outdoor ice sports like hockey. Minnesota, in particular, is known as the "State of Hockey" as its climate supports ice hockey for a significant part of the year.</p><br>
+</div>
+</div>
+</body>
+</html>
