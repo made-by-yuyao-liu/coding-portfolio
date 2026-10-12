@@ -37,11 +37,11 @@ Research assistant supporting a study on how private-credit lenders adjust indus
 - **Industry Mapping:** Mapping borrowers to industry classifications.
 - **Portfolio Analysis:** Constructing portfolio weights and lender exposure measures.
 
-### Personal Projects
-
-Independent projects exploring my interests in finance, analytics, technology, and practical applications of data.
+### Projects
+- [Beyond Meat Case Report](./projects/beyond-meat-case-report.pdf)
+- [Barilla Case Report](./projects/barilla-case-report.pdf)
+- [Zara Case Report](./projects/zara-case-report.pdf)
 
 ## Contact
-
 - **LinkedIn:** [Cindy Liu](https://www.linkedin.com/in/-cindy-liu)
 - **Email:** [cindylyy26@gmail.com](mailto:cindylyy26@gmail.com)
