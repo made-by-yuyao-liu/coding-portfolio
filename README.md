@@ -17,6 +17,7 @@ This portfolio brings together my coding projects, data visualizations, research
 
 - **Java** 
   - [Six in a Row Game](./java-projects/six-in-a-row-game) — A two-player Java board game with Rock–Paper–Scissors to determine the starting player.
+  - [Laissez-Faire — Economic Board Game](./java-projects/laissez-faire-game/) — A game featuring character selection, animated dice, and resource collection.
 
 - **HTML/CSS/JavaScript** 
   - [Mastermind Game](./html-css-javascript/mastermind/) — A browser-based color code-breaking game.
