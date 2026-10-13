@@ -36,7 +36,7 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
   - [PowerPoint presentation](./tableau/world-cup-visualization-comparison.pptx)
   - [Tableau workbook](./tableau/world-cup-2026.twbx)
 
-- [General Visualization Tips — PowerPoint](./visualization-tips.pptx)
+- [General Visualization Tips](./data-visualization/visualization-tips.pptx)
 
 #### Private Credit Lending Research Assistant 
 
