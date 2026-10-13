@@ -20,7 +20,7 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
 
 - **HTML/CSS/JavaScript** Websites, browser games, and interactive interfaces.
   - [Mastermind Game](./html-css-javascript/mastermind/) — A browser-based color code-breaking game.
-  - [Olympic Hockey Athlete Explorer](./html-css-javascript/olympic-hockey-athlete-website/) — A three-page website presenting athlete age, height, and geographic distributions.
+  - [Olympic Hockey Athlete Website](./html-css-javascript/olympic-hockey-athlete-website/) — A website presenting athlete age, height, and geographic distributions.
   
 - **Excel:**
   - [Used-Car Inventory & Pricing Analysis](./excel/used-car-inventory-analysis.xlsm)
