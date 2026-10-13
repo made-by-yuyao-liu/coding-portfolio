@@ -31,15 +31,15 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
 
 Developing INSY 442 course materials for the next semester, including Power BI and Tableau visualizations, visualization best practices, and recommendations for expanding course content.
 
-- **Power BI:** Canadian retail sales visualizations
+- **Power BI Visualizations:** Canadian retail sales visualizations
   - [PowerPoint presentation](./power-bi/retail-sales-visualization-comparison.pptx)
   - [Power BI dashboard file](./power-bi/canadian-retail-sales.pbix)
 
-- **Tableau:** 2026 World Cup visualizations
+- **Tableau Visualizations:** 2026 World Cup visualizations
   - [PowerPoint presentation](./tableau/world-cup-visualization-comparison.pptx)
   - [Tableau workbook](./tableau/world-cup-2026.twbx)
 
-  - [General Visualization Tips](./data-visualization/visualization-tips.pptx)
+- [General Visualization Tips](./data-visualization/visualization-tips.pptx)
 
 #### Private Credit Lending Research Assistant
 
