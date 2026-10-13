@@ -15,19 +15,19 @@ This portfolio brings together my coding projects, data visualizations, research
     - [Chatbot Notebook](./python/nyc-travel-chatbot/chatbot.ipynb)
     - [Example Itinerary Map](./python/nyc-travel-chatbot/nyc_itinerary_map.png)
 
-- **Java** Object-oriented programming and desktop applications.
+- **Java** 
   - [Six in a Row Game](./java-projects/six-in-a-row-game) — A two-player Java board game with Rock–Paper–Scissors to determine the starting player.
 
-- **HTML/CSS/JavaScript** Websites, browser games, and interactive interfaces.
+- **HTML/CSS/JavaScript** 
   - [Mastermind Game](./html-css-javascript/mastermind/) — A browser-based color code-breaking game.
   - [Olympic Hockey Athlete Website](./html-css-javascript/olympic-hockey-athlete-website/) — A website presenting athlete age, height, and geographic distributions.
   
-- **Excel:**
+- **Excel**
   - [Used-Car Inventory & Pricing Analysis](./excel/used-car-inventory-analysis.xlsm)
 
 ### Research Assistant Work
 
-#### Data Visualizations - Course Material Development
+#### INSY 442 — Data Analytics & Visualization Course Development
 
 Developing INSY 442 course materials for the next semester, including Power BI and Tableau visualizations, visualization best practices, and recommendations for expanding course content.
 
@@ -50,7 +50,7 @@ Supporting research on whether BDCs more exposed to economic shocks shift invest
 - **Portfolio Analysis:** Constructing portfolio weights and lender exposure measures.
 - **Regression Analysis:** Estimating and interpreting relationships between shock exposure and portfolio allocation.
 
-### Projects
+### Other Projects
 - [Beyond Meat Case Report](./projects/beyond-meat-case-report.pdf)
 - [Barilla Case Report](./projects/barilla-case-report.pdf)
 - [Zara Case Report](./projects/zara-case-report.pdf)
