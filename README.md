@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hi, I’m Yuyao (Cindy) Liu, an undergraduate student at McGill University studying Business Analytics and Finance, alongside coursework in Computer Science and Mathematics. I’m interested in combining programming and data analysis to solve business problems, build useful tools, and uncover insights.
+Hi! I’m Yuyao (Cindy) Liu, an undergraduate student at McGill University studying Business Analytics and Finance, alongside coursework in Computer Science and Mathematics. I’m interested in combining programming and data analysis to solve business problems, build useful tools, and uncover insights.
 
 This portfolio brings together my coding projects, data visualizations, research contributions, and business case analyses.
 
