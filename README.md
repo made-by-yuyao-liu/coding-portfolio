@@ -9,7 +9,12 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
 ## Portfolio Overview
 
 ### Coding Projects
-- **Python:** Scripts, algorithms, data cleaning, and analytical workflows.
+- **Python:** 
+  - **[NYC Travel Planning Chatbot](./python/nyc-travel-chatbot/)** — A chatbot project recommending NYC layover itineraries based on airport, available time, budget, and interests, with itinerary map generation.
+    - [Project Presentation](./python/nyc-travel-chatbot/chatbot-presentation.pptx)
+    - [Chatbot Notebook](./python/nyc-travel-chatbot/chatbot.ipynb)
+    - [Example Itinerary Map](./python/nyc-travel-chatbot/nyc_itinerary_map.png)
+
 - **Java:** Object-oriented programming and desktop applications.
   - [Six in a Row Game](./java-projects/six-in-a-row-game) — A two-player Java board game with Rock–Paper–Scissors to determine the starting player.
 
