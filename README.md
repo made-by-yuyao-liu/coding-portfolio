@@ -10,7 +10,7 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
 
 ### Coding Projects
 - **Python** 
-  - [NYC Travel Planning Chatbot] — A chatbot project recommending NYC layover itineraries based on airport, available time, budget, and interests, with itinerary map generation.
+  - NYC Travel Planning Chatbot — A chatbot project recommending NYC layover itineraries based on airport, available time, budget, and interests, with itinerary map generation.
     - [Project Presentation](./python/nyc-travel-chatbot/chatbot-presentation.pptx)
     - [Chatbot Notebook](./python/nyc-travel-chatbot/chatbot.ipynb)
     - [Example Itinerary Map](./python/nyc-travel-chatbot/nyc_itinerary_map.png)
