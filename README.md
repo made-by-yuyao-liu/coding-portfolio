@@ -28,6 +28,9 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
 ### Research Assistant Work
 
 #### Data Visualizations - Course Material Development
+
+Developing INSY 442 course materials for the next semester, including Power BI and Tableau visualizations, visualization best practices, and recommendations for expanding course content.
+
 - **Power BI:** Canadian retail sales visualizations
   - [PowerPoint presentation](./power-bi/retail-sales-visualization-comparison.pptx)
   - [Power BI dashboard file](./power-bi/canadian-retail-sales.pbix)
@@ -36,15 +39,16 @@ Hi, I’m Yuyao (Cindy) Liu, an undergraduate at McGill University studying Busi
   - [PowerPoint presentation](./tableau/world-cup-visualization-comparison.pptx)
   - [Tableau workbook](./tableau/world-cup-2026.twbx)
 
-- [General Visualization Tips](./data-visualization/visualization-tips.pptx)
+  - [General Visualization Tips](./data-visualization/visualization-tips.pptx)
 
-#### Private Credit Lending Research Assistant 
+#### Private Credit Lending Research Assistant
 
-Research assistant supporting a study on how private-credit lenders adjust industry exposure during economic shocks.
+Supporting research on whether BDCs more exposed to economic shocks shift investments toward industries with greater asset redeployability, tangibility, or liquidation value.
 
 - **Data Preparation:** Cleaning and analyzing investment data using Python and DuckDB.
 - **Industry Mapping:** Mapping borrowers to industry classifications.
 - **Portfolio Analysis:** Constructing portfolio weights and lender exposure measures.
+- **Regression Analysis:** Estimating and interpreting relationships between shock exposure and portfolio allocation.
 
 ### Projects
 - [Beyond Meat Case Report](./projects/beyond-meat-case-report.pdf)
