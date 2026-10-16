@@ -45,7 +45,7 @@ Developing INSY 442 course materials for the next semester, including Power BI a
 - - **Curriculum Review:** Excel & Power BI recommendations for next semester
   - [Excel recommendations](./curriculum-review/excel-recommendations.pptx)
   - [Power BI recommendations](./curriculum-review/powerbi-recommendations.pptx)
-  - [Excel basics review package (Week 1)](./curriculum-review/excel-basics-review.pptx)
+  - [Excel basics review package](./curriculum-review/excel-basics-review.pptx)
 
 #### Private Credit Lending Research Assistant
 
