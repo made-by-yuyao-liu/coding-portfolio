@@ -51,6 +51,8 @@ Developing INSY 442 course materials for the next semester, including Power BI a
 
 Supporting research on whether BDCs more exposed to economic shocks shift investments toward industries with greater asset redeployability, tangibility, or liquidation value.
 
+📄 [Full project write-up](private-credit-research/README.md)
+
 - **Data Preparation:** Cleaning and analyzing investment data using Python and DuckDB.
 - **Industry Mapping:** Mapping borrowers to industry classifications.
 - **Portfolio Analysis:** Constructing portfolio weights and lender exposure measures.
