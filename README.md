@@ -42,6 +42,11 @@ Developing INSY 442 course materials for the next semester, including Power BI a
 
 - [General Visualization Tips](./data-visualization/visualization-tips.pptx)
 
+- - **Curriculum Review:** Excel & Power BI recommendations for next semester
+  - [Excel recommendations](./curriculum-review/excel-recommendations.pptx)
+  - [Power BI recommendations](./curriculum-review/powerbi-recommendations.pptx)
+  - [Excel basics review package (Week 1)](./curriculum-review/excel-basics-review.pptx)
+
 #### Private Credit Lending Research Assistant
 
 Supporting research on whether BDCs more exposed to economic shocks shift investments toward industries with greater asset redeployability, tangibility, or liquidation value.
