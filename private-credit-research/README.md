@@ -108,25 +108,3 @@ I matched three published collateral measures to the same BEA industry rows, so 
 The resulting portfolio collateral score, the outcome variable for the regressions, is:
 
 $$C_{l,t} = \sum_i s_{i,l,t} \times M_i$$
-
-## Status and hand-off
-
-The shock is built and validated; the collateral crosswalks are being finalized at both BEA granularities before the data goes to the professor for regressions.
-
-| Deliverable | Contents | Status |
-| --- | --- | --- |
-| `industry_bea_mapping.csv` | 7,450 raw labels to five BEA levels | Done |
-| `lender_covid_shock_2019_2020.csv` | One row per lender: shock under 2 specs × 2 weightings | Done |
-| `portfolio_shares_2019Q4.csv` | Pre-shock lender × industry weights | Done |
-| Collateral measures by BEA industry | Three measures on sub-summary and detail rows | In progress |
-| Quarterly lender × industry panel, 2018 to 2021 | Same pipeline as the 2019 Q4 base, every quarter | In progress |
-
-**Next (professor):** test whether lenders with larger shocks shifted toward high-collateral industries, using long-difference, panel difference-in-differences and lender × industry specifications.
-
-### Skills demonstrated
-
-- **Large-data engineering:** SQL on a 1.1M-row, 274-column file with DuckDB; reproducible Jupyter pipelines.
-- **Data cleaning at scale:** instrument filtering, de-duplication, and classification of 7,450 messy text labels with documented decisions.
-- **Economic data:** BEA gross output, fixed assets and NAICS concordances; real versus nominal and chained-dollar caveats.
-- **Research judgment:** fair-value versus par weighting, pre-determined exposure, coverage thresholds, robustness specs.
-- **Communication:** methodology notes and step-by-step notebooks a professor can audit and rerun.
