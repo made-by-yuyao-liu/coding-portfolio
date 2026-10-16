@@ -49,14 +49,15 @@ Developing INSY 442 course materials for the next semester, including Power BI a
 
 #### Private Credit Lending Research Assistant
 
-Supporting research on whether BDCs more exposed to economic shocks shift investments toward industries with greater asset redeployability, tangibility, or liquidation value.
+Supporting faculty research on whether BDCs more exposed to the COVID shock shifted lending toward industries with more redeployable, tangible, or liquidation-valuable assets.
 
-📄 [Full project write-up](private-credit-research/README.md)
+📄 [Project write-up](private-credit-research/README.md) 
 
-- **Data Preparation:** Cleaning and analyzing investment data using Python and DuckDB.
-- **Industry Mapping:** Mapping borrowers to industry classifications.
-- **Portfolio Analysis:** Constructing portfolio weights and lender exposure measures.
-- **Regression Analysis:** Estimating and interpreting relationships between shock exposure and portfolio allocation.
+- **Data Preparation:** Built a DuckDB/Python pipeline over 1.1M SEC-filed loan holdings (250 BDCs, 1997–2026), filtering to direct corporate lending.
+- **Industry Mapping:** Standardized 7,450 raw industry labels to the BEA classification, covering 99.56% of rows.
+- **Shock Construction:** Measured industry COVID shocks from BEA gross output (2019→2020) and built pre-shock lender exposure for 82 BDCs.
+- **Collateral Measures:** Crosswalked redeployability (Kim & Kung), liquidation value (Kermani & Ma) and tangibility (BEA Fixed Assets, Braun) to 600+ BEA industries.
+
 
 ### Other Projects
 - [Beyond Meat Case Report](./projects/beyond-meat-case-report.pdf)
